@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    width:120%;
+    height: 400px;
+    background: red,; url("https://i.imgur.com/aWd0Nyp.jpg")
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background: black;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: Red;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/*formulario*/
+
+
+
+form{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    display: block;
+    margin-bottom:10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+label1{
+    position: relative;
+    top: -100;
+}
+button{
+    width: 90;
+    height: 40;
+}
+mensaje{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    
+}
+
+.boton{
+    width: 50;
+    height: 40;
+}
+
+
+
+/*Footer*/
+
+footer{
+    background: black;
+    width: 506px;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    wwidth: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid aqua;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: white;
+    border-bottom: 3px solid pink;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: white;
+}
+
+.tutulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: aqua;
+}
+
+
